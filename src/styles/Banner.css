@@ -1,0 +1,58 @@
+.banner {
+  color: white;
+  height: 448px;
+  /* height: 90vh; Change the height to 100vh (viewport height) */
+  background-position: top center; /* Add background-position: top center */
+  overflow: hidden;
+}
+
+.banner-content {
+  margin-left: 30px;
+  padding-top: 140px;
+  height: 190px;
+}
+
+.banner-title {
+  font-size: 3rem;
+  font-weight: 800;
+  padding-bottom: 0.3rem;
+}
+
+.banner-description {
+  width: 43rem;
+  line-height: 1.5;
+  font-size: 0.8rem;
+  padding-top: 1rem;
+  max-width: 360px;
+  height: 80px;
+}
+
+.banner-button {
+  cursor: pointer;
+  background-color: rgba(51, 51, 51, 0.5);
+  width: 100px;
+  border-radius: 5px;
+  padding: 3px;
+  color: white;
+  margin-left: 10px;
+  border: none;
+  font-weight: 700;
+  outline: none;
+  z-index: 1;
+}
+
+.banner-button:hover {
+  color: black;
+  background-color: white;
+  transition: all 0.2s;
+}
+
+.banner-fade-bottom {
+  height: 7.4rem;
+  background-image: linear-gradient(
+    180deg,
+    transparent,
+    rgba(37, 37, 37, 0.61),
+    #111
+  );
+}
